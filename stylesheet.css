@@ -1,0 +1,95 @@
+@font-face {
+	font-family: "AvenirNextLTPro-Regular";
+	src: url('fonts/AvenirNextLTPro-Regular.eot') format('embedded-opentype'),
+	url('fonts/AvenirNextLTPro-Regular.otf') format('opentype');
+}
+@font-face {
+	font-family: "AvenirNextLTPro-Bold";
+	src: url('fonts/AvenirNextLTPro-Bold.eot') format('embedded-opentype'),
+	url('fonts/AvenirNextLTPro-Bold.otf') format('opentype');
+}
+body {
+	margin-top: 0px !important;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.header {
+	width: 100%;
+	height: 540px;
+	background: url(header.png) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+}
+nav {
+	min-width:980px;
+	width: 100%;
+	height: 70px;
+	background-color: rgba(12, 24, 38, 0.4);
+}
+nav .navbar {
+	list-style: none;
+	margin-top: 0px;
+	padding-top: 24px;
+}
+.navbar li {
+	display: inline;
+	color: #fff;
+	padding: 10px;
+	padding-right: 60px !important;
+}
+.prime{
+	padding-left: 40px !important;
+}
+.phone_header{
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 10pt;
+	background-image: url(icon.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.phonering_header {
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 10pt;
+	background-image: url(iconring.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.email {
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 10pt;
+	background-image: url(email.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.info {
+	height: 100%;
+	margin-left: 52%;
+	width: 30%;
+	color: #fff;
+}
+.info h2{
+	margin-top: 25%;
+	margin-bottom: 0px;
+	font-size:40pt;
+	font-family: AvenirNextLTPro-Bold;
+	font-size: 40pt;
+	letter-spacing: 4px;
+}
+.info p{
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 10pt;
+	letter-spacing: 1pt;
+	padding-bottom: 10pt;
+}
+.container div{
+	width: 500px;
+	display: inline;
+	padding-left:30px;
+	padding-right: 30px;
+	padding:20px;
+}
+.map img{
+	background: no-repeat center center;
+	background-size: cover;
+	width: 100%;
+}
